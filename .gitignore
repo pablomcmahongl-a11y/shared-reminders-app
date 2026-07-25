@@ -1,0 +1,50 @@
+# .gitignore
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+*.app.dSYM.zip
+
+# iOS
+.DS_Store
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Node/Backend
+node_modules/
+npm-debug.log
+.env
+.env.local
+reminders.db
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.o
+*.a
+*.so
